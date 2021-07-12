@@ -7,9 +7,12 @@ public class shipMove : MonoBehaviour
 
     public float speed = 10f;
     public GameObject bullet;
-    public float bulletThreshold = 0.1f;
+    public float bulletThreshold = 0.3f;
     float elapsedTime = 0;
     public shipGame control;
+
+    private float xMax = 3f;
+    private float xMin = -3f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +27,7 @@ public class shipMove : MonoBehaviour
 
         transform.Translate(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0f, 0f);
         transform.Translate(Input.acceleration.x * speed * Time.deltaTime, 0f, 0f);
+        transform.position = new Vector3((Mathf.Clamp(transform.position.x, xMin, xMax)), transform.position.y, transform.position.z);
 
         if (Input.GetButtonDown("Jump") || Input.touches.Length >0)
         {

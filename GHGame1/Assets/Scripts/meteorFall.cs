@@ -5,7 +5,7 @@ using UnityEngine;
 public class meteorFall : MonoBehaviour
 {
 
-    float speed = -5f;
+    float speed = -3f;
     float rotation;
     // Start is called before the first frame update
     void Start()

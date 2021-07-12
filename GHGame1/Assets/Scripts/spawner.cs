@@ -21,7 +21,7 @@ public class spawner : MonoBehaviour
         if(Random.Range(0, spawnThreshold) <=1)
         {
             Vector3 pos = transform.position;
-            Instantiate(meteor, new Vector3(pos.x + Random.Range(-6, 6), pos.y, pos.z), Quaternion.identity);
+            Instantiate(meteor, new Vector3(pos.x + Random.Range(-3, 4), pos.y, pos.z), Quaternion.identity);
 
             spawnThreshold -= spawnDecrement;
             if(spawnThreshold <2)

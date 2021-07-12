@@ -5,7 +5,7 @@ using UnityEngine;
 public class shipGame : MonoBehaviour
 {
 
-    bool isRunnning = true;
+    bool isRunning = true;
     int playerScore = 0;
     // Start is called before the first frame update
     void Start()
@@ -26,18 +26,8 @@ public class shipGame : MonoBehaviour
 
     public void PlayerDied()
     {
-        isRunnning = false;
+        isRunning = false;
     }
 
-    private void OnGUI()
-    {
-        if(isRunnning == true)
-        {
-            GUI.Label(new Rect(5, 5, 100, 30), "Punkty: " + playerScore);
-        }
-        else
-        {
-            GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100), "Koniec gry. Liczba zdobytych punktów: " + playerScore);
-        }
-    }
+    
 }

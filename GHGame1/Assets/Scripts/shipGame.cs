@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class shipGame : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class shipGame : MonoBehaviour
 
     public void PlayerDied()
     {
-        isRunning = false;
+        //SceneManager.LoadScene("GameOver");
     }
 
     

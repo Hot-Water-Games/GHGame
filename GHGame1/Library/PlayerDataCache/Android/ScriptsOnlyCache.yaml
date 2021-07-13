@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraSize
     - Enemy
     - EnemyBullet
     - MainMenu
+    - Music
     - backgroundMove
     - bulletsc
     - meteorFall
@@ -58,21 +60,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11600}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12980}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 14364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -116,6 +118,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -125,33 +131,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 12134}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 12352}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 14032}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 14100}
+      Script: {instanceID: 14038}
     - Class: 114
-      Script: {instanceID: 14166}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14430}
+      Script: {instanceID: 14364}
+    - Class: 114
+      Script: {instanceID: 14436}
+    - Class: 114
+      Script: {instanceID: 16290}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,21 +200,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11254}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11600}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12980}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14358}
+      Script: {instanceID: 14364}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -425,6 +435,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+    className: Music
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
     className: triggersc
   - hash:
       serializedVersion: 2
@@ -530,7 +546,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 2c5bb8b98eb2efa80e219ebba0acc136
+      Hash: f806399bda0860eace968e987e8b134b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: shipMove
@@ -768,6 +784,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ee061e1251b0e50c7edd8b7a4e870085
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraSize
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

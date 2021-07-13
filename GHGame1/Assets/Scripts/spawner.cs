@@ -17,7 +17,7 @@ public class spawner : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(Random.Range(0, spawnThreshold) <=1)
         {
@@ -26,10 +26,10 @@ public class spawner : MonoBehaviour
             Instantiate(enemy, new Vector3(pos.x + Random.Range(-3, 4), pos.y, pos.z), Quaternion.identity);
 
             spawnThreshold -= spawnDecrement;
-            if(spawnThreshold <2)
+            /*if(spawnThreshold <2)
             {
                 spawnThreshold = 2;
-            }
+            }*/
         }
     }
 }

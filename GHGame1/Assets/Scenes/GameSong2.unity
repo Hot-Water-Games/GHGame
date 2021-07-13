@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88986a843e83b54892617e7b2945b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   bullet: {fileID: 169076, guid: d096b2e176fd8744bb6feb2dd2b160bf, type: 3}
   bulletThreshold: 0.3
   control: {fileID: 0}
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d90ca0728bfc6419d3aa49a0822096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnThreshold: 200
+  spawnThreshold: 50
   meteor: {fileID: 113006, guid: e1e3a28de8604ba44a52ba4a3f16c95b, type: 3}
   enemy: {fileID: 147846, guid: e2a563409f05b26429e07cb45c0d2ea2, type: 3}
 --- !u!4 &1677754268

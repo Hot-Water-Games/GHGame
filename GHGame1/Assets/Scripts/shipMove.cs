@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class shipMove : MonoBehaviour
 {
@@ -44,5 +45,6 @@ public class shipMove : MonoBehaviour
     {
         Destroy(other.gameObject);
         Destroy(this.gameObject);
+        SceneManager.LoadScene("GameOver");
     }
 }

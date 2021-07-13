@@ -21,8 +21,20 @@ public class bulletsc : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        Destroy(other.gameObject);
-        shipGame.instance.AddScore();
-        Destroy(this.gameObject);
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(other.gameObject);
+            shipGame.instance.AddScore();
+            Destroy(this.gameObject);
+        }
+        else if(other.gameObject.CompareTag("meteor"))
+        {
+            Destroy(this.gameObject);
+        }
+        else if (other.gameObject.CompareTag("bullet"))
+        {
+            Destroy(other.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 }

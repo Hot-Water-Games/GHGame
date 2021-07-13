@@ -15,6 +15,9 @@ public class shipMove : MonoBehaviour
     private float xMax = 3f;
     private float xMin = -3f;
 
+    public AudioSource source;
+    public AudioClip fireSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +41,8 @@ public class shipMove : MonoBehaviour
 
                 elapsedTime = 0f;
             }
+
+            source.PlayOneShot(fireSound);
         }
     }
 

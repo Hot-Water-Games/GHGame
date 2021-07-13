@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Activator
   - meteor
+  - music
+  - Enemy
+  - bullet
   layers:
   - Default
   - TransparentFX

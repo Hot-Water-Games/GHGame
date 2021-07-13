@@ -22,7 +22,7 @@ public class bulletsc : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
         Destroy(other.gameObject);
-        control.AddScore();
+        shipGame.instance.AddScore();
         Destroy(this.gameObject);
     }
 }

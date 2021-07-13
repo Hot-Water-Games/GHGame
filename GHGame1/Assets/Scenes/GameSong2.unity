@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 346812464}
   - component: {fileID: 346812463}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: triggerbox1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 597111230}
   - component: {fileID: 597111229}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: triggerbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 1149886314}
   - component: {fileID: 1149886313}
   m_Layer: 0
-  m_Name: back
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 1677754268}
   - component: {fileID: 1677754267}
   m_Layer: 0
-  m_Name: spawner
+  m_Name: spawnerMeteor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -599,7 +599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d90ca0728bfc6419d3aa49a0822096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnThreshold: 150
   meteor: {fileID: 113006, guid: e1e3a28de8604ba44a52ba4a3f16c95b, type: 3}
+  enemy: {fileID: 147846, guid: e2a563409f05b26429e07cb45c0d2ea2, type: 3}
 --- !u!4 &1677754268
 Transform:
   m_ObjectHideFlags: 0
@@ -706,7 +708,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 161008, guid: 236055fb118b89949bf4698f3928dd5b, type: 3}
       propertyPath: m_Name
-      value: spaceship_7
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 161008, guid: 236055fb118b89949bf4698f3928dd5b, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 427946, guid: 236055fb118b89949bf4698f3928dd5b, type: 3}
       propertyPath: m_LocalPosition.x

@@ -5,10 +5,11 @@ using UnityEngine;
 public class spawner : MonoBehaviour
 {
 
-    float spawnThreshold = 100;
+    public float spawnThreshold = 100;
     float spawnDecrement = .1f;
 
     public GameObject meteor;
+    public GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class spawner : MonoBehaviour
         {
             Vector3 pos = transform.position;
             Instantiate(meteor, new Vector3(pos.x + Random.Range(-3, 4), pos.y, pos.z), Quaternion.identity);
+            Instantiate(enemy, new Vector3(pos.x + Random.Range(-3, 4), pos.y, pos.z), Quaternion.identity);
 
             spawnThreshold -= spawnDecrement;
             if(spawnThreshold <2)

@@ -139,8 +139,8 @@ MonoBehaviour:
     y: 0
     width: 1075
     height: 271
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 29}
   m_Panes:
   - {fileID: 29}
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 1080
     height: 1127
-  m_MinSize: {x: 200, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -239,8 +239,8 @@ MonoBehaviour:
     y: 0
     width: 523
     height: 689
-  m_MinSize: {x: 200, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_MinSize: {x: 275, y: 71}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 100
+  controlID: 101
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_MinSize: {x: 230, y: 492}
   m_MaxSize: {x: 10000, y: 14042}
   vertical: 0
-  controlID: 126
+  controlID: 127
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_MinSize: {x: 230, y: 492}
   m_MaxSize: {x: 10000, y: 14042}
   vertical: 1
-  controlID: 127
+  controlID: 128
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -758,9 +758,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8e3a0000
-      m_LastClickedID: 14990
-      m_ExpandedIDs: 98faffff5efbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 88f4ffff9af4fffffcf4ffffb2f7ffff92faffff5efbffff223b0000fe3b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -821,7 +821,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 137
+  m_LastVerticalScrollValue: 0
 --- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -858,9 +858,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.5660276, y: 2.775366, z: -7.4860506}
+    m_Target: {x: 265.5584, y: 222.44559, z: -26.625}
     speed: 2
-    m_Value: {x: -5.1007404, y: 2.95093, z: -7.4414062}
+    m_Value: {x: 265.5584, y: 222.44559, z: -26.625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -910,9 +910,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.858441
+    m_Target: 409.83044
     speed: 2
-    m_Value: 12.417216
+    m_Value: 409.83044
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1093,20 +1093,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Graphics
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Graphics
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\unity projects\szczurki\GHGame\GHGame1
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 103a0000
-    m_LastClickedID: 14864
-    m_ExpandedIDs: 00000000083a000000ca9a3b
+    m_SelectedIDs: 923a0000
+    m_LastClickedID: 14994
+    m_ExpandedIDs: 00000000883a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 95}
     m_SelectedIDs: 36560000
     m_LastClickedID: 22070
-    m_ExpandedIDs: 00000000083a0000
+    m_ExpandedIDs: 00000000883a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1178,7 +1178,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 20}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1218,4 +1218,4 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2294
+  m_LastSelectedObjectID: -2386

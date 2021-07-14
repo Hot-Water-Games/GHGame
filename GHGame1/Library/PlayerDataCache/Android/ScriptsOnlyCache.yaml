@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraSize
     - Enemy
     - EnemyBullet
+    - LevelLoader
     - MainMenu
     - Music
     - backgroundMove
@@ -23,6 +24,11 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -40,6 +46,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/GameOver.unity:
@@ -60,21 +67,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11286}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11632}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 14140}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14168}
+    - Class: 114
+      Script: {instanceID: 14396}
+    - Class: 114
+      Script: {instanceID: 14438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,37 +142,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11286}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11466}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12142}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12360}
+      Script: {instanceID: 12388}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 13012}
     - Class: 114
-      Script: {instanceID: 13502}
+      Script: {instanceID: 13530}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 14042}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 14138}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14396}
     - Class: 114
-      Script: {instanceID: 14440}
+      Script: {instanceID: 14468}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -195,26 +206,40 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11286}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11632}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 12982}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 12358}
     - Class: 114
-      Script: {instanceID: 14140}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 13356}
+    - Class: 114
+      Script: {instanceID: 13374}
+    - Class: 114
+      Script: {instanceID: 13776}
+    - Class: 114
+      Script: {instanceID: 14054}
+    - Class: 114
+      Script: {instanceID: 14168}
+    - Class: 114
+      Script: {instanceID: 14396}
+    - Class: 114
+      Script: {instanceID: 14438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -346,6 +371,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 627b6547a5c4515ccfe4c07a8134b662
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelLoader
   - hash:
       serializedVersion: 2
       Hash: 523ce309f50d9eee6a8fc0e2f86c9c97

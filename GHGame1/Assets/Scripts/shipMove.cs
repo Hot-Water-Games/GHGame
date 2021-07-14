@@ -17,6 +17,7 @@ public class shipMove : MonoBehaviour
 
     public AudioSource source;
     public AudioClip fireSound;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -38,11 +39,12 @@ public class shipMove : MonoBehaviour
             if(elapsedTime > bulletThreshold)
             {
                 Instantiate(bullet, new Vector3(transform.position.x, transform.position.y + 1.2f, -6f), Quaternion.identity);
-
+                source.Play();
                 elapsedTime = 0f;
             }
 
-            source.PlayOneShot(fireSound);
+            //source.PlayOneShot(fireSound);
+            
         }
     }
 

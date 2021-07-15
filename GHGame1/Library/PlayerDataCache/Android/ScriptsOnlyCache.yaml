@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -67,25 +68,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 12338}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 13042}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 14200}
     - Class: 114
-      Script: {instanceID: 14172}
-    - Class: 114
-      Script: {instanceID: 14400}
-    - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14428}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,37 +139,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11424}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11524}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 12142}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12338}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12420}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13534}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 14074}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 14142}
+      Script: {instanceID: 14170}
     - Class: 114
-      Script: {instanceID: 14208}
+      Script: {instanceID: 14236}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14428}
     - Class: 114
-      Script: {instanceID: 14472}
+      Script: {instanceID: 14500}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,33 +210,86 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12338}
     - Class: 114
-      Script: {instanceID: 12362}
+      Script: {instanceID: 12390}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 13042}
     - Class: 114
-      Script: {instanceID: 13360}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 13406}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13808}
     - Class: 114
-      Script: {instanceID: 14058}
+      Script: {instanceID: 14086}
     - Class: 114
-      Script: {instanceID: 14172}
+      Script: {instanceID: 14200}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14428}
     - Class: 114
-      Script: {instanceID: 14442}
+      Script: {instanceID: 14470}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Shop.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11318}
+    - Class: 114
+      Script: {instanceID: 11610}
+    - Class: 114
+      Script: {instanceID: 11664}
+    - Class: 114
+      Script: {instanceID: 12338}
+    - Class: 114
+      Script: {instanceID: 13042}
+    - Class: 114
+      Script: {instanceID: 13388}
+    - Class: 114
+      Script: {instanceID: 13706}
+    - Class: 114
+      Script: {instanceID: 13808}
+    - Class: 114
+      Script: {instanceID: 14200}
+    - Class: 114
+      Script: {instanceID: 14428}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -826,4 +876,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameSong2.unity
   - Assets/Scenes/GameOver.unity
+  - Assets/Scenes/Shop.unity
   playerPath: F:/unity projects/szczurki/GHGame/gametest/ga.apk

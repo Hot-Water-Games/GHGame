@@ -32,4 +32,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Shop");
     }
+    public void BackShop()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
 }
